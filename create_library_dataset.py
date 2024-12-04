@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Import libraries
 import pandas as pd
 import random
 from faker import Faker
@@ -6,10 +6,10 @@ from faker import Faker
 # Initialize Faker for realistic mock data
 faker = Faker()
 
-# Step 1: Define the number of books
-num_books = 50  # Adjust this number as needed
+# The number of books defined
+num_books = 50  
 
-# Step 2: Generate data for each column
+# Generate data for each column
 book_ids = [f"B{str(i).zfill(3)}" for i in range(
     1, num_books + 1)]  # Unique IDs like B001, B002
 titles = [faker.sentence(nb_words=3)
@@ -22,7 +22,7 @@ categories = random.choices(
 descriptions = [faker.text(max_nb_chars=100)
                 for _ in range(num_books)]  # Random summaries
 
-# Step 3: Combine the data into a DataFrame
+# Combine the data into a DataFrame
 data = {
     "Book ID": book_ids,
     "Title": titles,
@@ -33,7 +33,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Step 4: Save the DataFrame to a CSV file
+# Save the DataFrame to a CSV file
 file_name = "library_books.csv"
 df.to_csv(file_name, index=False)
 
