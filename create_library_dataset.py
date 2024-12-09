@@ -1,5 +1,5 @@
 
-import pandas as pd
+import pandas as pd 
 import random
 from faker import Faker
 
@@ -7,20 +7,20 @@ from faker import Faker
 faker = Faker()
 
 
-num_books = 50  
+num_books = 50
 
 
 book_ids = [f"B{str(i).zfill(3)}" for i in range(
-    1, num_books + 1)]  
+    1, num_books + 1)]
 titles = [faker.sentence(nb_words=3)
-          for _ in range(num_books)]  
-authors = [faker.name() for _ in range(num_books)] 
-years = [random.randint(2000, 2023) for _ in range(num_books)] 
+          for _ in range(num_books)]
+authors = [faker.name() for _ in range(num_books)]
+years = [random.randint(2000, 2023) for _ in range(num_books)]
 categories = random.choices(
     ["Technology", "Science", "Fiction", "History", "Mathematics"], k=num_books
-)  
+)
 descriptions = [faker.text(max_nb_chars=100)
-                for _ in range(num_books)]  
+                for _ in range(num_books)]
 
 # Combine the data into a DataFrame
 data = {
