@@ -1,0 +1,101 @@
+Student ID,First Name,Last Name,Age,Gender,Status,Enrollment Date,Degree,Faculty,Subjects,E-Library Book ID
+S001,Amanda,Stevenson,21,Male,Inactive,2024-08-10,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S002,Joseph,Phillips,20,Male,Active,2022-08-05,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B014
+S003,Lisa,Jones,30,Male,Inactive,2022-11-03,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B010
+S004,Michelle,Brady,26,Female,Inactive,2022-06-13,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B015
+S005,Monica,Phillips,28,Female,Inactive,2024-03-13,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
+S006,Gregory,Jones,22,Female,Inactive,2023-11-09,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S007,Caroline,Brown,25,Female,Active,2022-10-02,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S008,Marcus,Rangel,21,Female,Active,2022-04-18,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B012
+S009,William,Hodges,30,Female,Active,2023-10-10,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B003
+S010,Beth,Gomez,21,Male,Inactive,2023-08-28,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S011,Darryl,Henderson,29,Male,Inactive,2023-05-15,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B018
+S012,Sherri,White,23,Female,Active,2024-07-09,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B011
+S013,Gerald,Fox,27,Female,Active,2023-12-13,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B011
+S014,Ronald,Long,25,Male,Inactive,2024-12-01,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S015,Cheyenne,Short,23,Male,Inactive,2023-05-10,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S016,Jennifer,Smith,26,Male,Active,2024-11-11,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B014
+S017,James,Porter,29,Male,Inactive,2023-01-07,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B015
+S018,Spencer,Brown,21,Male,Active,2022-05-20,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
+S019,James,Suarez,28,Male,Inactive,2023-03-24,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B019
+S020,Shannon,Smith,28,Female,Active,2024-09-15,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S021,Juan,Powers,28,Male,Inactive,2024-10-13,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S022,Dennis,Smith,19,Male,Inactive,2024-06-15,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S023,Melanie,Wolfe,30,Female,Inactive,2024-09-15,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B010
+S024,Bryan,Lee,22,Female,Inactive,2024-08-17,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B007
+S025,Travis,Meyer,27,Male,Active,2024-06-16,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S026,Emily,Fowler,30,Female,Inactive,2024-09-27,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B016
+S027,Mark,Bullock,25,Female,Active,2023-02-24,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
+S028,Mark,Mccarty,30,Male,Active,2023-02-08,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B013
+S029,Donna,Steele,22,Male,Inactive,2022-02-16,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S030,Ryan,Mooney,24,Male,Inactive,2022-06-11,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B012
+S031,Joy,Thomas,29,Male,Active,2022-05-17,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S032,Casey,Harper,18,Female,Inactive,2022-11-17,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S033,Monique,Oneill,26,Male,Inactive,2022-02-23,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B014
+S034,Joshua,Jones,21,Female,Active,2023-12-16,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B008
+S035,Scott,Tyler,19,Male,Active,2022-10-21,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S036,William,Jordan,18,Male,Inactive,2023-03-24,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B004
+S037,Russell,Richardson,21,Male,Inactive,2023-05-30,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S038,Martin,Rivas,26,Male,Active,2024-08-31,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B011
+S039,Adam,Baker,20,Female,Active,2023-03-03,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B016
+S040,Jeremy,Grant,26,Female,Inactive,2024-04-24,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S041,Kelly,Diaz,30,Female,Active,2023-03-15,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B014
+S042,Christopher,Brock,23,Male,Active,2022-03-19,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S043,Charles,Clayton,28,Female,Inactive,2024-10-08,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S044,Raymond,Lopez,25,Female,Active,2024-04-06,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S045,Amy,Lee,21,Female,Active,2022-07-03,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S046,Joseph,Wilkinson,22,Female,Active,2024-07-14,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S047,Allen,Andrade,22,Female,Active,2022-09-20,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S048,Samantha,Leon,19,Male,Inactive,2022-07-28,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
+S049,Paul,Mitchell,30,Male,Inactive,2024-12-04,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B003
+S050,Jennifer,Wade,28,Female,Active,2022-07-18,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S051,Ashley,Hartman,19,Male,Active,2024-05-26,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S052,Thomas,Adams,20,Female,Active,2022-04-25,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
+S053,Gina,Berry,23,Male,Inactive,2024-06-03,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S054,Annette,Hull,29,Male,Inactive,2023-11-10,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B011
+S055,David,Garrett,30,Female,Inactive,2022-12-24,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
+S056,Aaron,Leblanc,19,Male,Inactive,2022-09-18,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B012
+S057,Angela,Martin,20,Male,Active,2022-11-30,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S058,Stephen,Simmons,30,Male,Active,2024-08-05,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S059,Katherine,Velasquez,28,Male,Active,2022-08-23,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B019
+S060,Brian,Manning,25,Female,Active,2022-08-14,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
+S061,Paul,Boyd,27,Male,Inactive,2022-01-16,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S062,Nancy,Thomas,19,Male,Active,2023-08-09,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B003
+S063,Richard,Hines,26,Male,Active,2024-11-03,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S064,Anthony,Bell,21,Female,Active,2023-08-13,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B007
+S065,Benjamin,Wall,26,Male,Active,2024-07-06,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
+S066,Jessica,Stevens,22,Female,Inactive,2023-03-17,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B019
+S067,Samuel,Smith,18,Female,Active,2022-09-12,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B003
+S068,April,Gonzales,18,Male,Active,2024-09-25,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
+S069,Janice,Decker,22,Female,Active,2023-08-09,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S070,Gary,Chen,28,Male,Active,2022-05-22,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B012
+S071,Brittney,Sullivan,19,Male,Inactive,2024-02-20,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B020
+S072,Nancy,Lopez,28,Male,Active,2023-11-08,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B007
+S073,Cindy,Wells,27,Female,Inactive,2023-03-31,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S074,Julian,Parker,26,Male,Active,2022-02-12,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B018
+S075,Tina,Duncan,25,Female,Active,2024-09-23,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S076,Sharon,Chase,21,Female,Inactive,2024-01-21,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B016
+S077,Susan,Butler,25,Male,Inactive,2023-10-28,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S078,Rebecca,Chen,22,Female,Active,2022-06-14,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B010
+S079,Thomas,Smith,29,Male,Active,2022-07-24,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B008
+S080,Michelle,Ross,23,Male,Inactive,2023-11-13,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B013
+S081,George,Phillips,26,Female,Inactive,2023-05-29,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B010
+S082,Andrew,Harris,19,Female,Active,2023-07-10,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B011
+S083,Jason,Bell,22,Female,Inactive,2022-10-30,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S084,Sarah,Marshall,26,Male,Active,2024-07-09,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B016
+S085,Lauren,Oneal,26,Male,Inactive,2024-08-08,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B013
+S086,Raymond,Bass,26,Female,Active,2023-10-12,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S087,Adam,Rice,28,Male,Inactive,2022-05-03,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B013
+S088,Christopher,Edwards,28,Male,Inactive,2024-02-16,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B009
+S089,Lorraine,Lee,25,Female,Inactive,2021-12-19,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B003
+S090,Justin,Rice,25,Male,Inactive,2024-02-16,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B003
+S091,Keith,Ellison,20,Female,Active,2023-04-30,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B007
+S092,Crystal,Barber,18,Male,Active,2024-07-18,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S093,Carmen,Bennett,29,Female,Active,2023-06-22,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B013
+S094,Justin,Cook,30,Male,Inactive,2023-12-05,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B012
+S095,James,Peterson,28,Male,Active,2024-06-22,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B008
+S096,Damon,Hughes,30,Female,Inactive,2024-03-24,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B001
+S097,Brandon,Wilson,27,Female,Active,2023-05-10,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B007
+S098,John,Espinoza,20,Male,Active,2022-11-18,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B017
+S099,Dawn,Hall,27,Male,Active,2022-08-13,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B016
+S100,James,Larsen,19,Female,Active,2023-09-16,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B013
