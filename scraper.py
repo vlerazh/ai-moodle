@@ -1,8 +1,8 @@
 from typing import List, Set
 from urllib.parse import urljoin, urlparse
-
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
+import json
 
 # Utility to check if a URL is a file
 def _url_is_file(url: str) -> bool:
@@ -68,21 +68,22 @@ async def _fetch_url(url: str, playwright: async_playwright) -> str:
         return ""
 
 
-# Crawl and extract links recursively using Playwright
+# Crawl and extract links recursively using Playwright and store the data
 async def crawl_links(
     url: str,
     exclude_links: Set[str],
     max_links: int = 30,
+    output_file="data/output.json",
 ) -> List[str]:
     visited_links: Set[str] = set()
     links_to_return: List[str] = []
+    scraped_data = {}
 
     base_domain = urlparse(url).netloc
     queue = [url]
 
-    # Initialize Playwright
     async with async_playwright() as playwright:
-        while queue and len(links_to_return) < max_links:
+        while queue and len(scraped_data) < max_links:
             current_url = queue.pop(0)
 
             if current_url in visited_links and _url_is_file(current_url):
@@ -95,8 +96,13 @@ async def crawl_links(
             if not html:
                 continue
 
-            links_to_return.append(current_url)
+            soup = BeautifulSoup(html, "html.parser")
+            page_content = soup.get_text(separator=" ").strip()
 
+            # Store the content of the page
+            scraped_data[current_url] = page_content
+
+            # Find internal links and recursively follow them
             internal_links = _find_internal_links(
                 current_url=current_url,
                 html=html,
@@ -106,6 +112,16 @@ async def crawl_links(
                 queue=queue,
                 max_links=max_links,
             )
-            links_to_return.extend(internal_links)
 
-    return links_to_return[:max_links]
+            # Add the internal links to the queue
+            queue.extend(internal_links)
+
+            if len(scraped_data) >= max_links:
+                break
+
+    # Save the scraped data into a JSON file
+    with open(output_file, "w") as f:
+        json.dump(scraped_data, f, indent=4)
+
+    print(f"Scraped {len(scraped_data)} URLs and saved them in {output_file}")
+    return list(scraped_data.keys())  # Return the list of URLs scraped
