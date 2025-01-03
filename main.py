@@ -1,26 +1,19 @@
-from scraper import scrape_website
-from file_handler import extract_data_from_file
+import asyncio
+from scraper import crawl_links
 
-def main():
-    print("Welcome to the Chatbot Project!")
-    print("1. Scrape a website")
-    print("2. Process a document (PDF, TXT, DOCX)")
-    choice = input("Choose an option (1/2): ")
+async def main():
+    url = "https://www.ubt-uni.net/sq/ubt/"
+    exclude_links = set() 
+    max_links = 150 
 
-    if choice == '1':
-        url = input("Enter the website URL: ")
-        data = scrape_website(url)
-        with open("data/output.txt", "w", encoding="utf-8") as file:
-            file.write(data)
-        print(f"Data has been saved to data/output.txt")
-    elif choice == '2':
-        file_path = input("Enter the document path: ")
-        data = extract_data_from_file(file_path)
-        with open("data/output.txt", "w", encoding="utf-8") as file:
-            file.write(data)
-        print(f"Data has been saved to data/output.txt")
-    else:
-        print("Invalid choice!")
+    print("Starting the web scraping process...")
 
+    scraped_links = await crawl_links(url, exclude_links, max_links)
+    
+    print(f"Scraped {len(scraped_links)} links:")
+    for link in scraped_links:
+        print(link)
+
+# Run the main function
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
