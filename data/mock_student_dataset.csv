@@ -1,201 +1,201 @@
 Student ID,First Name,Last Name,Age,Gender,Status,Enrollment Date,Degree,Faculty,Subjects,E-Library Book ID
-S001,Annette,Cooper,30,Male,Active,2022-02-01,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S002,Christopher,Duffy,30,Male,Active,2023-06-25,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S003,Amber,Collins,27,Male,Active,2024-01-06,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B021
-S004,Morgan,Parker,21,Male,Active,2022-03-30,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B024
-S005,John,Wright,20,Female,Active,2023-12-07,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B026
-S006,Joseph,Morton,30,Male,Inactive,2024-06-26,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
-S007,Paul,Powell,23,Male,Active,2024-04-21,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B032
-S008,Erica,Burch,30,Female,Active,2022-06-03,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
-S009,Teresa,Richmond,21,Male,Active,2023-01-04,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B032
-S010,Gina,Johnson,24,Female,Active,2023-08-31,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B024
-S011,Angela,Watson,29,Female,Active,2024-11-25,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B020
-S012,Linda,Jones,24,Male,Inactive,2024-01-02,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S013,Jessica,Carpenter,25,Male,Active,2022-06-05,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
-S014,Patrick,Hawkins,25,Female,Inactive,2023-09-05,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B025
-S015,Emily,Mercer,18,Female,Active,2024-01-08,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B032
-S016,Brittany,Robertson,29,Male,Active,2024-06-13,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S017,Andrea,Johnson,27,Male,Inactive,2023-06-18,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B002
-S018,Stacey,Gay,28,Female,Active,2023-07-28,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S019,Krista,Jones,26,Female,Active,2023-09-29,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S020,Kimberly,Beltran,26,Female,Active,2023-08-10,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B004
-S021,Lisa,Richardson,25,Male,Inactive,2022-10-15,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S022,Nancy,Meyers,18,Female,Inactive,2022-07-02,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B040
-S023,Natalie,Gutierrez,29,Female,Active,2024-11-22,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S024,Chris,Holland,18,Male,Active,2024-10-04,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S025,Angela,Dominguez,18,Male,Inactive,2023-02-24,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S026,Crystal,Fry,27,Female,Active,2023-04-02,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S027,Juan,Harris,28,Female,Active,2023-06-25,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B009
-S028,Antonio,Ross,30,Male,Active,2023-11-06,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B016
-S029,Larry,Mckenzie,19,Female,Inactive,2023-12-28,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
-S030,Tina,Blackburn,27,Male,Active,2023-09-12,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B027
-S031,Lauren,Cervantes,29,Male,Inactive,2023-12-19,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
-S032,Michael,Franklin,21,Male,Active,2022-07-10,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S033,Leslie,Davis,24,Female,Active,2023-12-15,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B024
-S034,Brenda,Hess,28,Male,Inactive,2023-03-21,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S035,Daniel,Lopez,26,Male,Inactive,2023-12-20,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
-S036,Greg,Hood,28,Female,Inactive,2023-02-13,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B032
-S037,Micheal,Grant,21,Male,Active,2024-07-04,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B024
-S038,Jake,Young,20,Female,Active,2023-11-25,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B020
-S039,Clayton,Stewart,19,Male,Inactive,2023-02-10,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
-S040,Steven,Lyons,24,Male,Inactive,2022-03-27,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
-S041,Katherine,Mccoy,21,Female,Active,2022-09-08,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
-S042,Edward,Martinez,27,Male,Active,2022-12-20,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B007
-S043,Katherine,Perez,22,Male,Inactive,2022-12-14,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S044,Daniel,Phillips,24,Female,Active,2023-07-30,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
-S045,Regina,Garcia,18,Female,Active,2022-12-02,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S046,Laura,Davis,20,Male,Inactive,2023-12-16,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B024
-S047,Mark,Sparks,26,Female,Active,2022-04-06,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
-S048,Christina,Hansen,27,Female,Active,2022-03-09,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
-S049,Kaitlyn,Le,18,Female,Active,2022-04-18,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B010
-S050,Nicole,Shelton,30,Female,Active,2023-07-27,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B026
-S051,Amber,Brown,18,Female,Inactive,2022-01-26,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
-S052,Daniel,Mack,20,Male,Active,2022-11-14,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S053,Rachel,Walker,27,Female,Inactive,2023-05-11,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S054,Taylor,White,23,Female,Inactive,2024-08-17,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S055,Brittany,Castillo,20,Male,Active,2022-10-19,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B032
-S056,Michael,Sanchez,28,Female,Inactive,2024-07-24,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B007
-S057,Harry,Bradford,21,Female,Inactive,2024-06-19,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
-S058,Alyssa,Murphy,22,Male,Inactive,2023-09-16,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B021
-S059,Sheila,Martinez,24,Female,Active,2023-03-09,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B012
-S060,Thomas,Silva,21,Female,Inactive,2022-12-10,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S061,Tyler,Mcdowell,21,Male,Active,2024-09-25,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B018
-S062,Ashley,Mcclain,30,Female,Inactive,2024-07-25,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S063,Jeffrey,Evans,26,Male,Active,2022-01-15,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B039
-S064,Peter,Reyes,20,Female,Active,2022-01-24,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B026
-S065,Joshua,Ross,29,Female,Inactive,2022-05-22,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B012
-S066,Rebecca,Berger,25,Male,Inactive,2023-01-22,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B017
-S067,Anthony,Hansen,20,Male,Active,2022-07-06,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B030
-S068,Katrina,Miller,24,Male,Active,2024-06-17,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B002
-S069,Linda,Mills,22,Female,Active,2022-04-26,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
-S070,Heather,Dudley,24,Female,Inactive,2022-05-07,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S071,Jason,Hester,21,Female,Active,2022-02-23,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S072,Carl,Young,26,Male,Active,2022-07-20,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B030
-S073,Theresa,Grant,20,Female,Inactive,2024-02-18,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B002
-S074,Benjamin,Phillips,26,Male,Active,2024-03-07,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S075,Keith,Campbell,24,Female,Inactive,2024-07-07,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
-S076,Stacey,Hickman,21,Male,Active,2023-10-10,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B018
-S077,Aaron,Lopez,22,Female,Inactive,2023-12-02,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S078,Gary,Wiggins,27,Male,Active,2023-08-08,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B007
-S079,Brianna,Smith,19,Male,Active,2023-05-25,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
-S080,Olivia,Gutierrez,24,Male,Inactive,2022-05-10,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B026
-S081,Amanda,Vasquez,24,Male,Active,2023-07-15,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S082,David,Adams,22,Female,Inactive,2023-11-12,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B016
-S083,Stacey,Rivas,21,Female,Active,2023-09-11,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B032
-S084,Glen,Dunn,29,Male,Active,2022-06-26,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B027
-S085,Anthony,Murray,28,Male,Inactive,2023-03-02,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B025
-S086,Yvonne,Cook,19,Female,Inactive,2024-06-21,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S087,Amy,Patterson,20,Male,Inactive,2024-01-30,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
-S088,Lisa,Murray,27,Male,Active,2022-11-09,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
-S089,Patrick,Hawkins,26,Female,Active,2022-12-05,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S090,Jessica,Sosa,19,Female,Inactive,2022-09-16,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B010
-S091,Angela,Schmidt,27,Male,Inactive,2023-11-30,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
-S092,Michael,Turner,24,Male,Active,2022-08-27,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
-S093,Charles,Hall,30,Female,Active,2022-11-04,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S094,Lindsey,Bowen,18,Female,Inactive,2024-09-07,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B017
-S095,Jennifer,Hawkins,28,Female,Inactive,2023-08-03,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B036
-S096,Matthew,Bradford,29,Female,Active,2023-11-21,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S097,Amanda,Russell,27,Female,Active,2022-02-12,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B027
-S098,Cindy,Molina,24,Male,Active,2023-01-06,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
-S099,Jerry,Owens,18,Female,Active,2023-11-24,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
-S100,Thomas,Rasmussen,29,Male,Inactive,2023-08-22,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S101,Christopher,Lee,29,Female,Active,2023-10-24,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S102,Amber,Kirby,28,Male,Inactive,2023-09-04,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
-S103,Jennifer,Torres,28,Male,Active,2024-11-15,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B030
-S104,Brandy,Mcgee,23,Male,Inactive,2023-12-18,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
-S105,Mark,Perkins,22,Female,Inactive,2024-03-22,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B040
-S106,Kevin,Thomas,30,Female,Inactive,2022-04-14,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B002
-S107,Luke,Roberts,20,Male,Inactive,2023-06-07,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B016
-S108,Michelle,Jackson,25,Male,Active,2023-10-23,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B011
-S109,Rachel,Garrison,27,Female,Active,2024-08-27,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B018
-S110,Matthew,Moore,25,Male,Inactive,2024-01-14,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B010
-S111,James,Edwards,19,Male,Inactive,2024-04-08,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B030
-S112,Steven,Nielsen,28,Male,Active,2024-06-20,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B026
-S113,Joel,Sandoval,25,Female,Inactive,2024-09-25,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S114,Sharon,Peterson,28,Male,Active,2023-05-30,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
-S115,Nathaniel,Munoz,24,Female,Inactive,2023-08-02,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B009
-S116,Jason,Rodriguez,27,Male,Inactive,2022-12-10,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B009
-S117,Richard,Melton,28,Male,Inactive,2023-03-29,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
-S118,Jessica,Osborne,20,Female,Inactive,2024-07-21,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S119,Nicholas,Rogers,19,Male,Inactive,2023-04-12,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B017
-S120,Joseph,Oliver,26,Male,Inactive,2023-11-19,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B030
-S121,Destiny,Cherry,18,Male,Active,2023-07-07,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B007
-S122,Steven,Nelson,22,Male,Active,2022-11-24,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
-S123,Jason,Palmer,26,Female,Inactive,2023-03-14,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S124,Jessica,Smith,18,Female,Active,2022-11-24,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S125,Shannon,Wong,22,Female,Inactive,2024-07-03,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B030
-S126,Randy,Mitchell,26,Male,Inactive,2024-09-16,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B025
-S127,Dawn,Harris,26,Male,Inactive,2024-11-23,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
-S128,Edward,Copeland,26,Female,Inactive,2022-01-20,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B012
-S129,Robert,Bennett,29,Female,Active,2024-09-12,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B032
-S130,Carly,Arroyo,25,Male,Active,2022-12-09,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S131,Tyler,Scott,27,Male,Inactive,2023-10-05,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S132,Trevor,Miller,23,Female,Active,2022-06-25,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
-S133,Jonathan,Weeks,27,Male,Active,2023-08-15,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S134,Natalie,Anderson,24,Female,Active,2022-07-14,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S135,Lawrence,Brooks,30,Female,Inactive,2022-09-05,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B020
-S136,Jack,Lopez,29,Female,Active,2022-12-27,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B017
-S137,Jeffery,Pacheco,26,Female,Active,2024-07-27,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B026
-S138,Jesse,Miller,29,Female,Inactive,2024-05-31,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B038
-S139,Shawn,Ryan,25,Female,Inactive,2022-06-04,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S140,Edward,Henson,18,Female,Inactive,2023-08-13,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S141,Jennifer,Anderson,24,Male,Active,2023-11-16,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B002
-S142,Jennifer,Ramirez,23,Female,Inactive,2023-11-18,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B010
-S143,Chloe,West,26,Male,Active,2024-10-05,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S144,Devon,Ward,29,Male,Inactive,2024-01-02,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S145,Elaine,Fletcher,27,Male,Inactive,2023-10-21,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B035
-S146,David,Obrien,27,Male,Inactive,2024-11-10,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S147,Christopher,Hodges,19,Female,Inactive,2023-06-05,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B004
-S148,Bethany,Acevedo,19,Male,Inactive,2023-04-09,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B010
-S149,Bryan,Smith,26,Male,Inactive,2022-11-25,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
-S150,Catherine,Horton,28,Male,Active,2023-03-09,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
-S151,Evan,Parrish,30,Female,Active,2023-04-07,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B025
-S152,Joshua,Morgan,26,Female,Inactive,2024-09-17,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B022
-S153,Sharon,Taylor,26,Male,Inactive,2022-10-12,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S154,Jennifer,Koch,27,Female,Active,2024-05-09,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B036
-S155,Ashley,Smith,24,Male,Active,2024-10-22,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S156,Michele,Curtis,30,Male,Inactive,2024-01-07,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S157,Christopher,Cook,19,Female,Inactive,2024-06-19,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B032
-S158,Leah,Espinoza,26,Female,Active,2024-02-17,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B006
-S159,Eddie,Sharp,22,Male,Active,2022-12-13,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B022
-S160,Dustin,Perez,30,Male,Inactive,2022-11-15,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S161,Sandy,Harrington,20,Male,Inactive,2023-05-24,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S162,Michael,Perry,24,Male,Active,2024-01-30,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B004
-S163,Tristan,Gomez,20,Male,Active,2022-11-21,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B032
-S164,Daniel,Murphy,25,Male,Active,2023-09-02,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S165,Kevin,White,30,Female,Inactive,2022-11-09,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B018
-S166,Christina,Anderson,29,Male,Inactive,2024-07-17,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B029
-S167,Alec,Calderon,18,Female,Inactive,2022-05-07,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B010
-S168,Robert,Friedman,21,Male,Inactive,2022-11-11,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S169,Lisa,Thomas,30,Female,Active,2024-04-20,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S170,Alexandra,Washington,20,Female,Active,2023-01-12,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B002
-S171,Rebecca,Morgan,19,Male,Active,2024-04-24,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
-S172,Kelly,Smith,23,Female,Inactive,2023-05-02,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S173,Joseph,Martinez,29,Female,Inactive,2024-09-19,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B032
-S174,Joseph,Phillips,24,Male,Active,2024-06-28,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
-S175,Amber,Mosley,19,Female,Inactive,2024-08-09,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B034
-S176,Ryan,Lester,24,Male,Active,2024-07-08,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B037
-S177,Kimberly,Stafford,29,Female,Active,2024-10-08,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
-S178,Jeremy,Barry,29,Female,Active,2022-08-20,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B011
-S179,Christian,James,25,Male,Active,2023-01-01,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B011
-S180,Paul,Hensley,28,Male,Inactive,2023-08-13,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
-S181,Madison,Campos,21,Male,Inactive,2022-06-07,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B010
-S182,Michael,Rodgers,20,Female,Inactive,2024-12-06,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B035
-S183,Tammy,Kennedy,29,Male,Active,2023-02-26,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B017
-S184,Isaac,Jacobs,24,Male,Active,2024-01-20,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S185,Nicholas,Jackson,23,Male,Active,2023-07-05,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B023
-S186,Scott,Hernandez,26,Male,Active,2023-09-24,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B018
-S187,Krystal,Martinez,20,Male,Inactive,2022-09-25,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
-S188,John,Khan,22,Female,Active,2022-07-21,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
-S189,Allen,Duncan,26,Female,Active,2024-08-05,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B001
-S190,Dale,Williams,20,Male,Inactive,2024-11-07,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B015
-S191,April,Ramirez,19,Female,Inactive,2022-12-30,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B017
-S192,Debra,Harris,22,Female,Active,2022-02-02,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B040
-S193,Amber,Choi,28,Male,Active,2022-12-03,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B019
-S194,Mary,Gray,30,Female,Inactive,2024-08-16,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B018
-S195,Tiffany,Johnson,25,Female,Active,2022-11-19,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B035
-S196,Scott,Gonzalez,24,Female,Active,2022-05-12,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
-S197,Melissa,Singleton,19,Female,Active,2024-06-23,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B005
-S198,Robert,Downs,24,Male,Inactive,2022-08-19,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B032
-S199,Lori,Johnson,18,Female,Active,2022-11-13,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B007
-S200,Luke,Rivera,29,Female,Active,2024-01-13,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B007
+S001,Eddie,Henry,29,Male,Active,2023-05-03,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
+S002,Scott,Maynard,21,Female,Active,2022-10-08,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B005
+S003,Shawn,Alvarado,18,Female,Inactive,2022-02-26,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B021
+S004,James,Rosario,25,Female,Inactive,2024-01-09,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B018
+S005,Michelle,Oconnor,27,Female,Active,2022-05-06,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011
+S006,Anna,Munoz,21,Male,Active,2023-04-07,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S007,Kathryn,Reid,28,Female,Active,2024-03-30,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S008,Natalie,Gomez,26,Female,Inactive,2023-04-02,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038
+S009,Michelle,Odom,19,Male,Inactive,2022-04-05,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S010,Tristan,Martin,20,Female,Active,2023-04-29,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
+S011,Steven,Boyd,21,Male,Inactive,2022-08-13,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034
+S012,Brian,Blevins,30,Female,Active,2023-08-20,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
+S013,Matthew,Baker,18,Female,Inactive,2023-04-23,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B024
+S014,Patrick,Clark,30,Female,Active,2023-06-07,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001
+S015,Katie,Robinson,29,Male,Inactive,2022-02-13,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S016,Collin,Mcintosh,23,Male,Inactive,2023-09-19,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S017,Jack,Torres,29,Female,Active,2023-11-05,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010
+S018,Diana,Armstrong,30,Female,Active,2023-03-31,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
+S019,Kenneth,Barnett,29,Female,Active,2023-11-17,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038
+S020,Jennifer,Horton,30,Male,Inactive,2022-06-19,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
+S021,Richard,Snyder,23,Female,Active,2023-01-11,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S022,Katelyn,Fuller,25,Male,Active,2025-01-01,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027
+S023,Melinda,Hayes,24,Male,Active,2024-12-09,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015
+S024,Brandy,Strickland,25,Male,Active,2024-03-31,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029
+S025,Andrew,Lee,29,Female,Active,2023-11-18,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
+S026,Lee,Turner,30,Male,Active,2023-03-11,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034
+S027,Elizabeth,Potter,18,Female,Active,2024-06-16,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S028,Chase,Wolf,26,Male,Active,2023-12-18,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B015
+S029,Angel,Daugherty,29,Female,Active,2024-03-10,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S030,Cynthia,Turner,27,Female,Inactive,2023-05-22,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S031,Veronica,Casey,29,Female,Active,2023-04-06,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
+S032,Jennifer,Watson,24,Female,Inactive,2024-03-17,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B035
+S033,Danny,Meyers,27,Female,Inactive,2022-12-19,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009
+S034,Steven,Atkinson,20,Female,Active,2022-05-25,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S035,Tony,Rodriguez,18,Male,Inactive,2024-09-16,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009
+S036,Melissa,Herman,29,Female,Inactive,2023-04-13,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S037,Johnny,Gonzalez,18,Female,Inactive,2023-03-02,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006
+S038,Edward,Perkins,27,Male,Active,2023-11-12,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B039
+S039,Andrew,Harmon,30,Female,Inactive,2024-06-07,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004
+S040,Manuel,Rodriguez,23,Female,Active,2023-10-18,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
+S041,Kayla,Juarez,22,Male,Inactive,2022-12-23,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
+S042,Mark,Price,24,Female,Inactive,2022-05-19,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S043,Danielle,Gonzalez,23,Female,Inactive,2024-07-06,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S044,Jessica,Holt,30,Male,Active,2023-09-08,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S045,Megan,Peters,27,Male,Inactive,2024-04-09,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B025
+S046,Thomas,Cain,29,Female,Active,2024-02-04,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S047,David,Brown,23,Male,Inactive,2022-03-18,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S048,Joseph,Wolfe,21,Male,Active,2023-03-23,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B018
+S049,Richard,Jennings,18,Male,Inactive,2022-09-22,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034
+S050,James,White,21,Male,Active,2024-08-03,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021
+S051,Rose,Barnett,29,Female,Active,2023-07-25,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001
+S052,Daniel,Wong,27,Female,Active,2024-12-14,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S053,Parker,Allen,18,Female,Inactive,2024-03-31,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027
+S054,Tracy,Martinez,28,Female,Inactive,2024-05-13,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004
+S055,Mark,Wagner,25,Female,Inactive,2022-07-23,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S056,Wayne,Silva,21,Male,Active,2024-12-07,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011
+S057,Randy,Roberts,22,Female,Active,2023-12-27,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S058,Mark,Garcia,28,Male,Active,2023-01-07,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
+S059,Connor,Roberson,20,Female,Active,2022-10-26,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
+S060,Patricia,Reeves,24,Female,Inactive,2024-04-25,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S061,Joseph,Williams,24,Male,Active,2024-06-01,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021
+S062,Krista,Flowers,22,Female,Active,2022-12-07,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015
+S063,Michael,Parker,27,Female,Active,2022-11-16,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029
+S064,Robert,Patterson,28,Female,Active,2023-06-02,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015
+S065,Kyle,Frazier,21,Female,Active,2023-10-09,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029
+S066,Lisa,Mack,28,Female,Active,2022-01-27,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B021
+S067,Justin,Martinez,25,Female,Inactive,2023-04-05,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S068,Jacob,Brown,27,Male,Inactive,2022-08-27,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009
+S069,Christopher,Dickson,18,Male,Active,2023-01-19,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034
+S070,Anthony,Powell,22,Male,Inactive,2022-07-25,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015
+S071,Nicholas,Green,20,Female,Active,2023-01-12,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S072,Patricia,Hamilton,21,Female,Active,2022-04-06,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B024
+S073,Kristin,Brown,21,Male,Inactive,2024-09-03,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011
+S074,Ruth,Garcia,24,Male,Active,2023-12-13,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B023
+S075,Monique,Ochoa,29,Male,Inactive,2024-12-02,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015
+S076,Jesse,Brown,21,Female,Active,2024-07-28,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B023
+S077,Heather,Harper,25,Female,Inactive,2022-10-05,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
+S078,Amy,Grimes,30,Male,Active,2023-05-01,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004
+S079,Amber,Guzman,25,Female,Active,2023-05-18,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038
+S080,Cody,Jones,26,Male,Active,2024-07-20,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
+S081,Jordan,English,30,Male,Inactive,2023-02-14,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S082,Derrick,Lyons,25,Male,Active,2023-12-20,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B030
+S083,Nancy,Salas,19,Female,Inactive,2023-07-28,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
+S084,Daniel,Ford,18,Male,Inactive,2024-09-04,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
+S085,Brooke,Franklin,20,Female,Inactive,2022-12-04,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027
+S086,Brendan,Mcintosh,27,Female,Active,2024-08-11,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011
+S087,Michael,Sheppard,23,Male,Active,2024-10-06,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S088,Erin,Rush,22,Male,Inactive,2024-08-15,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S089,Robert,Marsh,23,Male,Inactive,2023-10-18,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006
+S090,Tina,Mora,21,Male,Active,2022-05-31,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004
+S091,Patricia,Nguyen,20,Male,Active,2024-06-12,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001
+S092,Sandra,Henry,30,Male,Inactive,2022-05-20,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B025
+S093,Lisa,Cline,22,Male,Inactive,2023-06-23,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B035
+S094,Richard,Cunningham,28,Female,Active,2022-07-03,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S095,Brandi,Hughes,28,Male,Active,2023-04-09,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001
+S096,Anna,Parker,29,Male,Inactive,2024-10-17,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S097,Courtney,Snow,29,Male,Active,2023-12-07,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S098,Clarence,Sparks,24,Male,Inactive,2024-03-20,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
+S099,Dylan,Owens,25,Male,Active,2023-08-14,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008
+S100,Sara,Castro,25,Female,Inactive,2024-05-08,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S101,Erik,Rogers,27,Male,Active,2024-09-06,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010
+S102,Juan,Henry,22,Female,Inactive,2024-11-03,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B030
+S103,Mike,Santos,21,Male,Inactive,2022-05-07,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010
+S104,Sandra,Smith,27,Male,Inactive,2024-05-24,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S105,Lisa,Garner,23,Male,Inactive,2023-06-12,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B024
+S106,Jason,Benson,25,Male,Inactive,2024-01-26,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
+S107,Rhonda,Simpson,25,Male,Active,2022-04-04,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021
+S108,Monica,Sanders,28,Female,Active,2023-04-25,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024
+S109,Charles,Scott,29,Female,Inactive,2023-01-10,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
+S110,Chase,Chaney,26,Male,Active,2023-02-23,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001
+S111,Lisa,Leonard,18,Female,Active,2024-09-12,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024
+S112,Kimberly,Vance,19,Male,Active,2022-12-10,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006
+S113,Joshua,Scott,18,Male,Active,2023-08-12,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
+S114,Robert,Phillips,29,Female,Active,2024-02-02,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S115,Darrell,Francis,22,Male,Active,2022-06-13,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
+S116,Heather,Davis,23,Female,Inactive,2022-06-26,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S117,Eric,Wilson,22,Male,Inactive,2023-06-07,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S118,Sarah,Hall,21,Male,Active,2024-01-26,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S119,Ronald,Parks,27,Female,Active,2023-03-22,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S120,Kendra,Wallace,20,Male,Active,2023-01-10,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
+S121,Kristina,Espinoza,21,Male,Active,2024-10-28,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S122,Christy,Baldwin,30,Male,Inactive,2023-04-27,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S123,Joseph,Jones,29,Male,Active,2023-05-10,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B023
+S124,Cory,Mendoza,21,Male,Inactive,2023-12-20,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S125,Daniel,Roberts,26,Male,Inactive,2022-03-25,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
+S126,Kenneth,Nichols,24,Male,Inactive,2024-12-23,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
+S127,Gina,Russell,27,Male,Active,2022-12-19,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006
+S128,Timothy,Ho,23,Female,Inactive,2024-01-08,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S129,Amy,Mcdaniel,27,Female,Inactive,2022-09-22,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B037
+S130,Hannah,Dean,28,Male,Active,2022-06-12,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B019
+S131,Matthew,Guerra,30,Male,Active,2024-06-07,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
+S132,Megan,Parks,18,Male,Active,2023-06-10,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027
+S133,Kevin,Allen,21,Male,Inactive,2023-05-17,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001
+S134,Jeffery,Walker,22,Male,Inactive,2024-06-07,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029
+S135,Debra,Webb,29,Female,Inactive,2023-06-11,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S136,Catherine,Aguilar,25,Female,Inactive,2024-03-13,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027
+S137,Jessica,Gibson,22,Male,Inactive,2024-03-19,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013
+S138,Bailey,Collins,23,Male,Inactive,2024-08-15,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S139,Jessica,Johnson,20,Male,Inactive,2023-10-22,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S140,Lee,Sheppard,30,Female,Inactive,2023-12-27,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S141,Heather,Harris,28,Female,Inactive,2023-12-06,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S142,Teresa,Thompson,21,Female,Active,2024-08-15,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028
+S143,Debra,Bowen,19,Male,Active,2024-01-18,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010
+S144,Barry,Zuniga,29,Female,Active,2023-07-23,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B037
+S145,Jamie,Matthews,18,Male,Active,2024-05-03,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S146,Jesse,Curry,20,Female,Inactive,2024-07-05,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B018
+S147,Gregory,Norman,19,Male,Active,2022-12-27,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S148,Michael,Smith,18,Male,Inactive,2023-09-05,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S149,Kimberly,Ferguson,19,Male,Inactive,2022-04-11,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022
+S150,Jimmy,Brown,27,Male,Active,2024-12-21,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
+S151,Faith,Dunn,18,Male,Active,2022-11-19,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029
+S152,Robert,Valdez,29,Female,Active,2023-01-01,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S153,April,Adams,28,Male,Inactive,2022-06-06,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B019
+S154,Jeffery,Shields,21,Male,Inactive,2022-05-10,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S155,Samantha,Moss,20,Female,Inactive,2024-06-12,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024
+S156,Jaime,Fleming,25,Female,Active,2022-12-25,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B030
+S157,Rebecca,Williams,18,Male,Active,2024-02-19,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024
+S158,Elizabeth,Hale,22,Female,Inactive,2022-08-12,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S159,Danielle,Scott,22,Male,Active,2022-11-28,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S160,Natasha,Ross,23,Female,Active,2022-10-31,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B016
+S161,Mary,Taylor,29,Female,Inactive,2022-01-11,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S162,Steven,Wheeler,22,Female,Active,2024-01-01,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007
+S163,James,Smith,30,Female,Active,2023-10-28,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014
+S164,Sarah,Henry,22,Female,Inactive,2023-02-23,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032
+S165,Patricia,Lopez,20,Female,Active,2023-05-21,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S166,Carlos,Moore,28,Male,Active,2022-02-25,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S167,Larry,Hodges,23,Male,Inactive,2022-08-03,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017
+S168,Brian,Hall,27,Female,Active,2022-12-31,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B039
+S169,Sarah,Hall,27,Male,Inactive,2023-02-14,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B005
+S170,Brittany,Mcfarland,18,Female,Inactive,2024-01-07,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S171,Andrew,Chapman,19,Male,Active,2022-03-03,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031
+S172,Joseph,Francis,23,Female,Active,2022-10-14,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011
+S173,Kendra,Martinez,21,Male,Active,2022-05-11,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S174,Lisa,Garcia,27,Male,Active,2023-09-04,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009
+S175,Sonia,Wright,29,Male,Inactive,2023-11-19,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026
+S176,Tim,Moody,28,Female,Inactive,2023-05-02,BSc in Physics,Faculty of Science,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034
+S177,James,Scott,24,Male,Active,2024-03-24,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S178,Jennifer,Robinson,27,Female,Active,2024-04-18,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028
+S179,Gabriel,Hamilton,20,Male,Inactive,2024-04-27,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027
+S180,Bobby,Jones,26,Male,Inactive,2024-08-19,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B015
+S181,Amy,Moreno,21,Male,Active,2023-06-02,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004
+S182,Curtis,Klein,23,Female,Active,2022-10-19,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S183,Jennifer,Austin,30,Female,Active,2022-12-31,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033
+S184,Christopher,Fisher,23,Male,Inactive,2022-10-08,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B016
+S185,Jerry,Diaz,25,Female,Active,2023-07-28,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B019
+S186,Brianna,Thomas,24,Female,Active,2024-07-07,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021
+S187,Yesenia,Moss,26,Male,Inactive,2024-03-18,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012
+S188,Manuel,Rhodes,26,Male,Inactive,2023-03-22,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015
+S189,Haley,Martinez,29,Male,Active,2023-07-22,BSc in Computer Science,Faculty of Science,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B037
+S190,Michael,Little,26,Female,Active,2023-07-29,MSc in Biology,Faculty of Science,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038
+S191,Melissa,Boyle,22,Male,Active,2023-01-30,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040
+S192,Ashley,Fowler,23,Male,Inactive,2023-12-02,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B025
+S193,Luis,Baker,27,Female,Active,2023-07-28,BSc in Mathematics,Faculty of Science,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003
+S194,Matthew,Hamilton,18,Male,Inactive,2024-08-05,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027
+S195,Lisa,Phillips,21,Female,Inactive,2025-01-07,MSc in Sociology,Faculty of Social Sciences,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B021
+S196,Lacey,Clark,19,Female,Inactive,2022-09-22,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S197,Maria,Scott,24,Female,Inactive,2024-11-29,BSc in Chemistry,Faculty of Science,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004
+S198,Andrew,Osborne,29,Male,Active,2023-07-22,BEng in Mechanical Engineering,Faculty of Engineering,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009
+S199,Zachary,Pearson,24,Male,Active,2024-11-02,MSc in Literature,Faculty of Arts,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002
+S200,Cynthia,Wilcox,24,Female,Active,2024-10-24,BA in Psychology,Faculty of Social Sciences,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027
