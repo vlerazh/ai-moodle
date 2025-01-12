@@ -1,0 +1,5 @@
+Random Forest Model:
+['Group 1' 'Group 2' 'Group 3']
+
+Scaler:
+['Age' 'Gender' 'Degree' 'Faculty']
