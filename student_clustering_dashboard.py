@@ -29,14 +29,16 @@ student_df['Encoded Books Reading'] = label_encoder.fit_transform(student_df['Bo
 
 # Clustering
 X = student_df[['Degree', 'Faculty', 'Status', 'Encoded Books Reading']]
-kmeans = KMeans(n_clusters=3, random_state=42)
+kmeans = KMeans(n_clusters=5, random_state=42)  # Changed to 5 clusters
 student_df['Cluster'] = kmeans.fit_predict(X)
 
-# Group names
+# Creative group names based on reading habits
 group_names = {
-    0: "Computer Science Student Group",
-    1: "Social Sciences Student Group",
-    2: "Law Student Group"
+    0: "Literature Enthusiasts",    # For students reading literary or fiction books
+    1: "Tech Savvy Explorers",      # For students reading tech or coding books
+    2: "Future Leaders",            # For students reading business/self-help books
+    3: "Philosophers & Thinkers",   # For students reading philosophy books
+    4: "Science Seekers"            # For students reading science-related books
 }
 
 # Streamlit App
