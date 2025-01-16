@@ -25,9 +25,10 @@ label_encoder = LabelEncoder()
 student_df['Degree'] = label_encoder.fit_transform(student_df['Degree'])
 student_df['Faculty'] = label_encoder.fit_transform(student_df['Faculty'])
 student_df['Status'] = label_encoder.fit_transform(student_df['Status'])
+student_df['Encoded Books Reading'] = label_encoder.fit_transform(student_df['Books Reading'])
 
 # Clustering
-X = student_df[['Degree', 'Faculty', 'Status']]
+X = student_df[['Degree', 'Faculty', 'Status', 'Encoded Books Reading']]
 kmeans = KMeans(n_clusters=3, random_state=42)
 student_df['Cluster'] = kmeans.fit_predict(X)
 
@@ -67,7 +68,7 @@ with col3:
 st.subheader("📊 Cluster Overview")
 for cluster_id, group in student_df.groupby('Cluster'):
     with st.expander(f"{group_names[cluster_id]} ({len(group)} Students)"):
-        st.dataframe(group[['Full Name', 'Faculty', 'Degree', 'Books Reading']].reset_index(drop=True))
+        st.dataframe(group[['Full Name', 'Faculty', 'Degree', 'Books Reading', 'Encoded Books Reading']].reset_index(drop=True))
 
 # Chatbot Placeholder
 st.subheader("💬 Group Chatbot")
