@@ -1,0 +1,201 @@
+Student ID,First Name,Last Name,Age,Gender,Status,Enrollment Date,Degree,Faculty,Subjects,E-Library Book ID,Cluster
+S001,Eddie,Henry,29,1,0,2023-05-03,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028,3
+S002,Scott,Maynard,21,0,0,2022-10-08,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B005,2
+S003,Shawn,Alvarado,18,0,1,2022-02-26,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B021,3
+S004,James,Rosario,25,0,1,2024-01-09,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B018,2
+S005,Michelle,Oconnor,27,0,0,2022-05-06,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011,2
+S006,Anna,Munoz,21,1,0,2023-04-07,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S007,Kathryn,Reid,28,0,0,2024-03-30,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S008,Natalie,Gomez,26,0,1,2023-04-02,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038,2
+S009,Michelle,Odom,19,1,1,2022-04-05,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S010,Tristan,Martin,20,0,0,2023-04-29,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008,1
+S011,Steven,Boyd,21,1,1,2022-08-13,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034,2
+S012,Brian,Blevins,30,0,0,2023-08-20,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033,1
+S013,Matthew,Baker,18,0,1,2023-04-23,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B024,3
+S014,Patrick,Clark,30,0,0,2023-06-07,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001,3
+S015,Katie,Robinson,29,1,1,2022-02-13,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S016,Collin,Mcintosh,23,1,1,2023-09-19,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S017,Jack,Torres,29,0,0,2023-11-05,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010,0
+S018,Diana,Armstrong,30,0,0,2023-03-31,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028,3
+S019,Kenneth,Barnett,29,0,0,2023-11-17,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038,2
+S020,Jennifer,Horton,30,1,1,2022-06-19,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031,2
+S021,Richard,Snyder,23,0,0,2023-01-11,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S022,Katelyn,Fuller,25,1,0,2025-01-01,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027,3
+S023,Melinda,Hayes,24,1,0,2024-12-09,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015,3
+S024,Brandy,Strickland,25,1,0,2024-03-31,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029,1
+S025,Andrew,Lee,29,0,0,2023-11-18,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014,0
+S026,Lee,Turner,30,1,0,2023-03-11,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034,2
+S027,Elizabeth,Potter,18,0,0,2024-06-16,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S028,Chase,Wolf,26,1,0,2023-12-18,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B015,3
+S029,Angel,Daugherty,29,0,0,2024-03-10,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S030,Cynthia,Turner,27,0,1,2023-05-22,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S031,Veronica,Casey,29,0,0,2023-04-06,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013,2
+S032,Jennifer,Watson,24,0,1,2024-03-17,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B035,1
+S033,Danny,Meyers,27,0,1,2022-12-19,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009,1
+S034,Steven,Atkinson,20,0,0,2022-05-25,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S035,Tony,Rodriguez,18,1,1,2024-09-16,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009,1
+S036,Melissa,Herman,29,0,1,2023-04-13,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S037,Johnny,Gonzalez,18,0,1,2023-03-02,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006,1
+S038,Edward,Perkins,27,1,0,2023-11-12,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B039,2
+S039,Andrew,Harmon,30,0,1,2024-06-07,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004,2
+S040,Manuel,Rodriguez,23,0,0,2023-10-18,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033,1
+S041,Kayla,Juarez,22,1,1,2022-12-23,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008,1
+S042,Mark,Price,24,0,1,2022-05-19,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S043,Danielle,Gonzalez,23,0,1,2024-07-06,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S044,Jessica,Holt,30,1,0,2023-09-08,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S045,Megan,Peters,27,1,1,2024-04-09,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B025,2
+S046,Thomas,Cain,29,0,0,2024-02-04,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S047,David,Brown,23,1,1,2022-03-18,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S048,Joseph,Wolfe,21,1,0,2023-03-23,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B018,2
+S049,Richard,Jennings,18,1,1,2022-09-22,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034,2
+S050,James,White,21,1,0,2024-08-03,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021,3
+S051,Rose,Barnett,29,0,0,2023-07-25,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001,3
+S052,Daniel,Wong,27,0,0,2024-12-14,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S053,Parker,Allen,18,0,1,2024-03-31,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027,3
+S054,Tracy,Martinez,28,0,1,2024-05-13,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004,2
+S055,Mark,Wagner,25,0,1,2022-07-23,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S056,Wayne,Silva,21,1,0,2024-12-07,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011,2
+S057,Randy,Roberts,22,0,0,2023-12-27,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S058,Mark,Garcia,28,1,0,2023-01-07,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028,3
+S059,Connor,Roberson,20,0,0,2022-10-26,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028,3
+S060,Patricia,Reeves,24,0,1,2024-04-25,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S061,Joseph,Williams,24,1,0,2024-06-01,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021,3
+S062,Krista,Flowers,22,0,0,2022-12-07,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015,3
+S063,Michael,Parker,27,0,0,2022-11-16,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029,1
+S064,Robert,Patterson,28,0,0,2023-06-02,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015,3
+S065,Kyle,Frazier,21,0,0,2023-10-09,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029,1
+S066,Lisa,Mack,28,0,0,2022-01-27,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B021,3
+S067,Justin,Martinez,25,0,1,2023-04-05,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S068,Jacob,Brown,27,1,1,2022-08-27,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009,1
+S069,Christopher,Dickson,18,1,0,2023-01-19,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034,2
+S070,Anthony,Powell,22,1,1,2022-07-25,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015,3
+S071,Nicholas,Green,20,0,0,2023-01-12,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S072,Patricia,Hamilton,21,0,0,2022-04-06,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B024,3
+S073,Kristin,Brown,21,1,1,2024-09-03,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011,2
+S074,Ruth,Garcia,24,1,0,2023-12-13,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B023,2
+S075,Monique,Ochoa,29,1,1,2024-12-02,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015,3
+S076,Jesse,Brown,21,0,0,2024-07-28,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B023,2
+S077,Heather,Harper,25,0,1,2022-10-05,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028,3
+S078,Amy,Grimes,30,1,0,2023-05-01,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004,2
+S079,Amber,Guzman,25,0,0,2023-05-18,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038,2
+S080,Cody,Jones,26,1,0,2024-07-20,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033,1
+S081,Jordan,English,30,1,1,2023-02-14,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S082,Derrick,Lyons,25,1,0,2023-12-20,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B030,2
+S083,Nancy,Salas,19,0,1,2023-07-28,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031,2
+S084,Daniel,Ford,18,1,1,2024-09-04,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008,1
+S085,Brooke,Franklin,20,0,1,2022-12-04,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027,3
+S086,Brendan,Mcintosh,27,0,0,2024-08-11,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011,2
+S087,Michael,Sheppard,23,1,0,2024-10-06,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S088,Erin,Rush,22,1,1,2024-08-15,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S089,Robert,Marsh,23,1,1,2023-10-18,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006,1
+S090,Tina,Mora,21,1,0,2022-05-31,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004,2
+S091,Patricia,Nguyen,20,1,0,2024-06-12,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001,3
+S092,Sandra,Henry,30,1,1,2022-05-20,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B025,2
+S093,Lisa,Cline,22,1,1,2023-06-23,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B035,1
+S094,Richard,Cunningham,28,0,0,2022-07-03,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002,0
+S095,Brandi,Hughes,28,1,0,2023-04-09,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001,3
+S096,Anna,Parker,29,1,1,2024-10-17,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S097,Courtney,Snow,29,1,0,2023-12-07,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S098,Clarence,Sparks,24,1,1,2024-03-20,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028,3
+S099,Dylan,Owens,25,1,0,2023-08-14,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B008,1
+S100,Sara,Castro,25,0,1,2024-05-08,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002,0
+S101,Erik,Rogers,27,1,0,2024-09-06,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010,0
+S102,Juan,Henry,22,0,1,2024-11-03,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B030,2
+S103,Mike,Santos,21,1,1,2022-05-07,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010,0
+S104,Sandra,Smith,27,1,1,2024-05-24,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S105,Lisa,Garner,23,1,1,2023-06-12,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B024,3
+S106,Jason,Benson,25,1,1,2024-01-26,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033,1
+S107,Rhonda,Simpson,25,1,0,2022-04-04,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021,3
+S108,Monica,Sanders,28,0,0,2023-04-25,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024,3
+S109,Charles,Scott,29,0,1,2023-01-10,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028,3
+S110,Chase,Chaney,26,1,0,2023-02-23,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001,3
+S111,Lisa,Leonard,18,0,0,2024-09-12,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024,3
+S112,Kimberly,Vance,19,1,0,2022-12-10,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006,1
+S113,Joshua,Scott,18,1,0,2023-08-12,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014,0
+S114,Robert,Phillips,29,0,0,2024-02-02,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S115,Darrell,Francis,22,1,0,2022-06-13,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028,3
+S116,Heather,Davis,23,0,1,2022-06-26,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S117,Eric,Wilson,22,1,1,2023-06-07,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S118,Sarah,Hall,21,1,0,2024-01-26,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S119,Ronald,Parks,27,0,0,2023-03-22,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S120,Kendra,Wallace,20,1,0,2023-01-10,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014,0
+S121,Kristina,Espinoza,21,1,0,2024-10-28,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S122,Christy,Baldwin,30,1,1,2023-04-27,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S123,Joseph,Jones,29,1,0,2023-05-10,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B023,2
+S124,Cory,Mendoza,21,1,1,2023-12-20,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S125,Daniel,Roberts,26,1,1,2022-03-25,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031,2
+S126,Kenneth,Nichols,24,1,1,2024-12-23,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031,2
+S127,Gina,Russell,27,1,0,2022-12-19,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B006,1
+S128,Timothy,Ho,23,0,1,2024-01-08,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S129,Amy,Mcdaniel,27,0,1,2022-09-22,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B037,2
+S130,Hannah,Dean,28,1,0,2022-06-12,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B019,2
+S131,Matthew,Guerra,30,1,0,2024-06-07,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014,0
+S132,Megan,Parks,18,1,0,2023-06-10,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027,3
+S133,Kevin,Allen,21,1,1,2023-05-17,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B001,3
+S134,Jeffery,Walker,22,1,1,2024-06-07,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029,1
+S135,Debra,Webb,29,0,1,2023-06-11,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S136,Catherine,Aguilar,25,0,1,2024-03-13,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027,3
+S137,Jessica,Gibson,22,1,1,2024-03-19,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B013,2
+S138,Bailey,Collins,23,1,1,2024-08-15,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S139,Jessica,Johnson,20,1,1,2023-10-22,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S140,Lee,Sheppard,30,0,1,2023-12-27,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S141,Heather,Harris,28,0,1,2023-12-06,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S142,Teresa,Thompson,21,0,0,2024-08-15,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B028,3
+S143,Debra,Bowen,19,1,0,2024-01-18,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B010,0
+S144,Barry,Zuniga,29,0,0,2023-07-23,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B037,2
+S145,Jamie,Matthews,18,1,0,2024-05-03,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S146,Jesse,Curry,20,0,1,2024-07-05,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B018,2
+S147,Gregory,Norman,19,1,0,2022-12-27,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S148,Michael,Smith,18,1,1,2023-09-05,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S149,Kimberly,Ferguson,19,1,1,2022-04-11,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B022,2
+S150,Jimmy,Brown,27,1,0,2024-12-21,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028,3
+S151,Faith,Dunn,18,1,0,2022-11-19,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B029,1
+S152,Robert,Valdez,29,0,0,2023-01-01,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S153,April,Adams,28,1,1,2022-06-06,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B019,2
+S154,Jeffery,Shields,21,1,1,2022-05-10,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S155,Samantha,Moss,20,0,1,2024-06-12,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024,3
+S156,Jaime,Fleming,25,0,0,2022-12-25,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B030,2
+S157,Rebecca,Williams,18,1,0,2024-02-19,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B024,3
+S158,Elizabeth,Hale,22,0,1,2022-08-12,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S159,Danielle,Scott,22,1,0,2022-11-28,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S160,Natasha,Ross,23,0,0,2022-10-31,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B016,0
+S161,Mary,Taylor,29,0,1,2022-01-11,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S162,Steven,Wheeler,22,0,0,2024-01-01,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B007,2
+S163,James,Smith,30,0,0,2023-10-28,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B014,0
+S164,Sarah,Henry,22,0,1,2023-02-23,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B032,2
+S165,Patricia,Lopez,20,0,0,2023-05-21,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S166,Carlos,Moore,28,1,0,2022-02-25,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002,0
+S167,Larry,Hodges,23,1,1,2022-08-03,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B017,0
+S168,Brian,Hall,27,0,0,2022-12-31,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B039,2
+S169,Sarah,Hall,27,1,1,2023-02-14,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B005,2
+S170,Brittany,Mcfarland,18,0,1,2024-01-07,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S171,Andrew,Chapman,19,1,0,2022-03-03,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B031,2
+S172,Joseph,Francis,23,0,0,2022-10-14,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B011,2
+S173,Kendra,Martinez,21,1,0,2022-05-11,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S174,Lisa,Garcia,27,1,0,2023-09-04,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009,1
+S175,Sonia,Wright,29,1,1,2023-11-19,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B026,2
+S176,Tim,Moody,28,0,1,2023-05-02,5,2,"['Mechanics', 'Quantum Physics', 'Thermodynamics', 'Electromagnetism']",B034,2
+S177,James,Scott,24,1,0,2024-03-24,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S178,Jennifer,Robinson,27,0,0,2024-04-18,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B028,3
+S179,Gabriel,Hamilton,20,1,1,2024-04-27,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027,3
+S180,Bobby,Jones,26,1,1,2024-08-19,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B015,3
+S181,Amy,Moreno,21,1,0,2023-06-02,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004,2
+S182,Curtis,Klein,23,0,0,2022-10-19,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S183,Jennifer,Austin,30,0,0,2022-12-31,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B033,1
+S184,Christopher,Fisher,23,1,1,2022-10-08,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B016,0
+S185,Jerry,Diaz,25,0,0,2023-07-28,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B019,2
+S186,Brianna,Thomas,24,0,0,2024-07-07,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B021,3
+S187,Yesenia,Moss,26,1,1,2024-03-18,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B012,1
+S188,Manuel,Rhodes,26,1,1,2023-03-22,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B015,3
+S189,Haley,Martinez,29,1,0,2023-07-22,3,2,"['Python Programming', 'Data Structures', 'Algorithms', 'Operating Systems', 'Database Systems']",B037,2
+S190,Michael,Little,26,0,0,2023-07-29,6,2,"['Molecular Biology', 'Genetics', 'Ecology', 'Microbiology']",B038,2
+S191,Melissa,Boyle,22,1,0,2023-01-30,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B040,2
+S192,Ashley,Fowler,23,1,1,2023-12-02,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B025,2
+S193,Luis,Baker,27,0,0,2023-07-28,4,2,"['Calculus', 'Linear Algebra', 'Probability and Statistics', 'Discrete Mathematics']",B003,2
+S194,Matthew,Hamilton,18,1,1,2024-08-05,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B027,3
+S195,Lisa,Phillips,21,0,1,2025-01-07,8,3,"['Sociological Theory', 'Social Inequality', 'Research Methods', 'Social Movements']",B021,3
+S196,Lacey,Clark,19,0,1,2022-09-22,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002,0
+S197,Maria,Scott,24,0,1,2024-11-29,2,2,"['Organic Chemistry', 'Inorganic Chemistry', 'Physical Chemistry', 'Analytical Chemistry']",B004,2
+S198,Andrew,Osborne,29,1,0,2023-07-22,1,1,"['Dynamics', 'Thermodynamics', 'Fluid Mechanics', 'Materials Science']",B009,1
+S199,Zachary,Pearson,24,1,0,2024-11-02,7,0,"['Shakespearean Drama', 'Modern Literature', 'Poetry', 'Philosophy', 'Literary Theory']",B002,0
+S200,Cynthia,Wilcox,24,0,0,2024-10-24,0,3,"['Developmental Psychology', 'Cognitive Psychology', 'Behavioral Psychology', 'Psychological Research Methods']",B027,3
