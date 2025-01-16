@@ -19,7 +19,7 @@ group_names = {
     0: 'Grupi i Studentëve me Performancë të Lartë',
     1: 'Grupi i Studentëve me Nevoja për Mbështetje Akademike',
     2: 'Grupi i Studentëve me Interes të Mesëm',
-    3: 'Grupi i Studentëve që Përdorin Shpesh Bibliotekën E-Librarish'
+    3: 'Grupi i Studentëve që Përdorin Shpesh Bibliotekën E-Librari'
 }
 
 student_df['Cluster Name'] = student_df['Cluster'].map(group_names)
