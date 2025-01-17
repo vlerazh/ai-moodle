@@ -1,3 +1,5 @@
+# chat_app.py
+
 import os
 import time
 import streamlit as st
@@ -21,130 +23,133 @@ def preprocess_content(raw_content, keywords=None, max_lines=1000):
     ]
     return "\n".join(relevant_lines[:max_lines])
 
-# Load files that have UBT content
-input_file_path = 'data/output.txt'
-preprocessed_file_path = 'data/preprocessed_output.txt'
-
-with open(input_file_path, 'r', encoding='utf-8') as file:
-    raw_content = file.read()
-
-preprocessed_content = preprocess_content(raw_content)
-with open(preprocessed_file_path, 'w', encoding='utf-8') as file:
-    file.write(preprocessed_content)
-
-# Upload the preprocessed file to OpenAI and manage session state. NOTE: to show the question and answer we have to save the data in streamlit sessions 
-if "my_file" not in st.session_state:
-    st.session_state["my_file"] = client.files.create(
-        file=open(preprocessed_file_path, 'rb'),
-        purpose="assistants"
-    )
-my_file = st.session_state["my_file"]
-
-# Create the assistant only if it doesn't exist and store it in session state
-if "my_assistant" not in st.session_state:
-    st.session_state["my_assistant"] = client.beta.assistants.create(
-        name="UBT assistant",
-        instructions=(
-            "You are a helpful assistant. Answer user questions based on the provided context. "
-            "Respond in the same language as the user's input. "
-            "Do not include filenames, page numbers, or external information."
-        ),
-        model="gpt-4o-mini",
-        tools=[{"type": "code_interpreter"}],
-        tool_resources={
-            "code_interpreter": {
-                "file_ids": [my_file.id]
+def run_chatbot(my_assistant, client):
+    # Load files that have UBT content
+    preprocessed_file_path =  'data/output.txt'
+    
+    with open(preprocessed_file_path, 'r', encoding='utf-8') as file:
+        raw_content = file.read()
+    
+    preprocessed_content = preprocess_content(raw_content)
+    # with open(preprocessed_file_path, 'w', encoding='utf-8') as file:
+    #     file.write(preprocessed_content)
+    
+    # Upload the preprocessed file to OpenAI and manage session state.
+    if "my_file" not in st.session_state:
+        st.session_state["my_file"] = client.files.create(
+            file=open(preprocessed_file_path, 'rb'),
+            purpose="assistants"
+        )
+    my_file = st.session_state["my_file"]
+    
+    # Create the assistant only if it doesn't exist and store it in session state
+    if "my_assistant" not in st.session_state:
+        st.session_state["my_assistant"] = client.beta.assistants.create(
+            name="UBT assistant",
+            instructions=(
+                "You are a helpful assistant that answers questions solely based on the content of the provided 'output.txt' file. "
+                "Do not use or refer to any external information or sources outside of this file. "
+                "Respond in the same language as the user's input; always respond in Albanian. "
+                "Do not include filenames, page numbers, or external references. "
+                "If the user asks for information not contained within 'output.txt', inform them that you cannot answer that question. "
+                "Maintain the flow of conversation by referencing previous interactions when relevant."
+            ),
+            model="gpt-4o-mini",
+            tools=[{"type": "code_interpreter"}],
+            tool_resources={
+                "code_interpreter": {
+                    "file_ids": [my_file.id]
+                }
             }
-        }
-    )
-my_assistant = st.session_state["my_assistant"]
-
-# Initialize session state for chat history
-if "messages" not in st.session_state:
-    st.session_state["messages"] = [
-        {"role": "system", "content": "You are a helpful assistant. Answer questions based on the given context."}
-    ]
-
-# Function to get a response from GPT-4
-def get_gpt4_response(user_input):
-    try:
-        # Create a thread and add the user's input
-        my_thread = client.beta.threads.create()
-        client.beta.threads.messages.create(
-            thread_id=my_thread.id,
-            role="user",
-            content=[{"type": "text", "text": user_input}]
         )
-
-        # Run the assistant
-        my_run = client.beta.threads.runs.create(
-            thread_id=my_thread.id,
-            assistant_id=my_assistant.id,
-        )
-
-        # Wait for the run to complete. It has more than two states 
-        while my_run.status in ["queued", "in_progress"]:
-            time.sleep(2)
-            my_run = client.beta.threads.runs.retrieve(
+    my_assistant = st.session_state["my_assistant"]
+    
+    # Initialize session state for chat history
+    if "messages" not in st.session_state:
+        st.session_state["messages"] = [
+            {"role": "system", "content": "You are a helpful assistant. Answer questions based on the given context."}
+        ]
+    
+    # Function to get a response from GPT-4
+    def get_gpt4_response(user_input):
+        try:
+            # Create a thread and add the user's input
+            my_thread = client.beta.threads.create()
+            client.beta.threads.messages.create(
                 thread_id=my_thread.id,
-                run_id=my_run.id
+                role="user",
+                content=[{"type": "text", "text": user_input}]
             )
-
-        # get the assistant's response
-        all_messages = client.beta.threads.messages.list(thread_id=my_thread.id)
-        assistant_message = next(
-            (msg for msg in all_messages.data if msg.role == "assistant"), None
-        )
-        if assistant_message and assistant_message.content:
-            return assistant_message.content[0].text.value
-        else:
-            return "Sorry, no response generated by the assistant."
-    except Exception as e:
-        st.error(f"An error occurred: {e}")
-        return "Sorry, I couldn't process your request."
-
-# Display chat interface
-st.title("Chat with UBT Assistant")
-
-chat_placeholder = st.empty()  # Placeholder for dynamic chat updates
-typing_placeholder = st.empty()  # Placeholder for "Bot is typing..."
-
-def display_chat():
-    with chat_placeholder.container():
-        for message in st.session_state["messages"]:
-            if message["role"] == "user":
-                st.markdown(f"**You:** {message['content']}")
-            elif message["role"] == "assistant":
-                st.markdown(f"**Bot:** {message['content']}")
-
-display_chat()
-
-# Input form at the bottom of the page
-with st.form(key="chat_form", clear_on_submit=True):
-    user_input = st.text_input("Your question:", placeholder="Type your question here...")
-    submit_button = st.form_submit_button("Send")
-
-# Process user input and generate response
-if submit_button and user_input:
-    # Add the user message to the chat history
-    st.session_state["messages"].append({"role": "user", "content": user_input})
-    display_chat()  # Update chat immediately with user input
-
-    # Show "Bot is typing..." below the user question
-    with typing_placeholder:
-        st.markdown("**Bot is typing...**")
-
-    # Generate assistant response with typing effect
-    assistant_response = get_gpt4_response(user_input)
-
-    # Remove "Bot is typing..." and show the response
-    typing_placeholder.empty()
-
-    # Add bot response to chat history with typing effect
-    bot_message = {"role": "assistant", "content": ""}
-    st.session_state["messages"].append(bot_message)
-
-    for i in range(len(assistant_response) + 1):
-        bot_message["content"] = assistant_response[:i]
-        display_chat()
-        time.sleep(0.05)
+    
+            # Run the assistant
+            my_run = client.beta.threads.runs.create(
+                thread_id=my_thread.id,
+                assistant_id=my_assistant.id,
+            )
+    
+            # Wait for the run to complete. It has more than two states 
+            while my_run.status in ["queued", "in_progress"]:
+                time.sleep(2)
+                my_run = client.beta.threads.runs.retrieve(
+                    thread_id=my_thread.id,
+                    run_id=my_run.id
+                )
+    
+            # get the assistant's response
+            all_messages = client.beta.threads.messages.list(thread_id=my_thread.id)
+            assistant_message = next(
+                (msg for msg in all_messages.data if msg.role == "assistant"), None
+            )
+            if assistant_message and assistant_message.content:
+                return assistant_message.content[0].text.value
+            else:
+                return "Sorry, no response generated by the assistant."
+        except Exception as e:
+            st.error(f"An error occurred: {e}")
+            return "Sorry, I couldn't process your request."
+    
+    # Display chat interface
+    st.title("Chat with UBT Assistant")
+    
+    chat_placeholder = st.empty()  # Placeholder for dynamic chat updates
+    typing_placeholder = st.empty()  # Placeholder for "Bot is typing..."
+    
+    def display_chat():
+        with chat_placeholder.container():
+            for message in st.session_state["messages"]:
+                if message["role"] == "user":
+                    st.markdown(f"**You:** {message['content']}")
+                elif message["role"] == "assistant":
+                    st.markdown(f"**Bot:** {message['content']}")
+    
+    display_chat()
+    
+    # Input form at the bottom of the page
+    with st.form(key="chat_form", clear_on_submit=True):
+        user_input = st.text_input("Your question:", placeholder="Type your question here...")
+        submit_button = st.form_submit_button("Send")
+    
+    # Process user input and generate response
+    if submit_button and user_input:
+        # Add the user message to the chat history
+        st.session_state["messages"].append({"role": "user", "content": user_input})
+        display_chat()  # Update chat immediately with user input
+    
+        # Show "Bot is typing..." below the user question
+        with typing_placeholder:
+            st.markdown("**Bot is typing...**")
+    
+        # Generate assistant response with typing effect
+        assistant_response = get_gpt4_response(user_input)
+    
+        # Remove "Bot is typing..." and show the response
+        typing_placeholder.empty()
+    
+        # Add bot response to chat history with typing effect
+        bot_message = {"role": "assistant", "content": ""}
+        st.session_state["messages"].append(bot_message)
+    
+        for i in range(len(assistant_response) + 1):
+            bot_message["content"] = assistant_response[:i]
+            display_chat()
+            time.sleep(0.05)
