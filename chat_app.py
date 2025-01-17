@@ -53,6 +53,7 @@ def run_chatbot(my_assistant, client):
                 "Do not include filenames, page numbers, or external references. "
                 "If the user asks for information not contained within 'output.txt', inform them that you cannot answer that question. "
                 "Maintain the flow of conversation by referencing previous interactions when relevant."
+                "Do not explicitly mention that you are using the 'output.txt' file for your responses."
             ),
             model="gpt-4o-mini",
             tools=[{"type": "code_interpreter"}],
