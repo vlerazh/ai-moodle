@@ -1,102 +1,40 @@
 # chat_app.py
 
-import os
 import time
 import streamlit as st
-from openai import OpenAI
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
-
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
-
-# Function to preprocess content and extract relevant information
-def preprocess_content(raw_content, keywords=None, max_lines=1000):
-    keywords = keywords or ["ubt", "fakultetet", "studime", "hulumtime", "dege"]
-    lines = raw_content.splitlines()
-    relevant_lines = [
-        line.strip() for line in lines
-        if any(keyword in line.lower() for keyword in keywords) and line.strip()
-    ]
-    return "\n".join(relevant_lines[:max_lines])
+from config import client
 
 def run_chatbot(my_assistant, client):
-    # Load files that have UBT content
-    preprocessed_file_path =  'data/output.txt'
-    
-    with open(preprocessed_file_path, 'r', encoding='utf-8') as file:
-        raw_content = file.read()
-    
-    preprocessed_content = preprocess_content(raw_content)
-    # with open(preprocessed_file_path, 'w', encoding='utf-8') as file:
-    #     file.write(preprocessed_content)
-    
-    # Upload the preprocessed file to OpenAI and manage session state.
-    if "my_file" not in st.session_state:
-        st.session_state["my_file"] = client.files.create(
-            file=open(preprocessed_file_path, 'rb'),
-            purpose="assistants"
-        )
-    my_file = st.session_state["my_file"]
-    
-    # Create the assistant only if it doesn't exist and store it in session state
-    if "my_assistant" not in st.session_state:
-        st.session_state["my_assistant"] = client.beta.assistants.create(
-            name="UBT assistant",
-            instructions=(
-                "You are a helpful assistant that answers questions solely based on the content of the provided 'output.txt' file. "
-                "Do not use or refer to any external information or sources outside of this file. "
-                "Respond in the same language as the user's input; always respond in Albanian. "
-                "Do not include filenames, page numbers, or external references. "
-                "If the user asks for information not contained within 'output.txt', inform them that you cannot answer that question. "
-                "Maintain the flow of conversation by referencing previous interactions when relevant."
-                "Do not explicitly mention that you are using the 'output.txt' file for your responses."
-            ),
-            model="gpt-4o-mini",
-            tools=[{"type": "code_interpreter"}],
-            tool_resources={
-                "code_interpreter": {
-                    "file_ids": [my_file.id]
-                }
-            }
-        )
-    my_assistant = st.session_state["my_assistant"]
-    
     # Initialize session state for chat history
     if "messages" not in st.session_state:
-        st.session_state["messages"] = [
-            {"role": "system", "content": "You are a helpful assistant. Answer questions based on the given context."}
-        ]
+        st.session_state["messages"] = []
     
-    # Function to get a response from GPT-4
+    # Function to get a response from the assistant
     def get_gpt4_response(user_input):
         try:
-            # Create a thread and add the user's input
+            # Create a new thread and add the user's input
             my_thread = client.beta.threads.create()
             client.beta.threads.messages.create(
                 thread_id=my_thread.id,
                 role="user",
                 content=[{"type": "text", "text": user_input}]
             )
-    
+
             # Run the assistant
             my_run = client.beta.threads.runs.create(
                 thread_id=my_thread.id,
                 assistant_id=my_assistant.id,
             )
-    
-            # Wait for the run to complete. It has more than two states 
+
+            # Polling to check if the run is complete
             while my_run.status in ["queued", "in_progress"]:
                 time.sleep(2)
                 my_run = client.beta.threads.runs.retrieve(
                     thread_id=my_thread.id,
                     run_id=my_run.id
                 )
-    
-            # get the assistant's response
+
+            # Retrieve the assistant's response
             all_messages = client.beta.threads.messages.list(thread_id=my_thread.id)
             assistant_message = next(
                 (msg for msg in all_messages.data if msg.role == "assistant"), None
@@ -112,7 +50,7 @@ def run_chatbot(my_assistant, client):
     # Display chat interface
     st.title("Chat with UBT Assistant")
     
-    chat_placeholder = st.empty()  # Placeholder for dynamic chat updates
+    chat_placeholder = st.empty() 
     typing_placeholder = st.empty()  # Placeholder for "Bot is typing..."
     
     def display_chat():
@@ -134,19 +72,15 @@ def run_chatbot(my_assistant, client):
     if submit_button and user_input:
         # Add the user message to the chat history
         st.session_state["messages"].append({"role": "user", "content": user_input})
-        display_chat()  # Update chat immediately with user input
+        display_chat()  
     
-        # Show "Bot is typing..." below the user question
         with typing_placeholder:
             st.markdown("**Bot is typing...**")
     
-        # Generate assistant response with typing effect
         assistant_response = get_gpt4_response(user_input)
     
-        # Remove "Bot is typing..." and show the response
         typing_placeholder.empty()
     
-        # Add bot response to chat history with typing effect
         bot_message = {"role": "assistant", "content": ""}
         st.session_state["messages"].append(bot_message)
     
