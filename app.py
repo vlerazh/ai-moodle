@@ -13,11 +13,10 @@ os.makedirs("data", exist_ok=True)
 # Caching the file upload to avoid redundant uploads
 @st.cache_resource
 def upload_file(file_path):
-    with open(file_path, 'rb') as f:
-        return client.files.create(
-            file=f,
-            purpose="assistants"
-        )
+    return client.files.create(
+        file=open(file_path, 'rb'),
+        purpose="assistants"
+    )
 
 # Caching the assistant 
 @st.cache_resource
@@ -92,7 +91,7 @@ with tab_scraping:
                         scraped_urls_placeholder=st.empty() 
                     ))
                     
-                    my_file = upload_file(output_file)
+                    my_file = upload_file(text_output_file)
                     
                     if "my_assistant" not in st.session_state:
                         st.session_state["my_assistant"] = create_assistant(my_file.id)
