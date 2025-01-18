@@ -25,7 +25,7 @@ def create_assistant(file_id):
     return client.beta.assistants.create(
         name="UBT assistant",
         instructions=(
-            "You are a helpful assistant that answers questions solely based on the content of the provided 'output.txt' file. "
+            "You are a helpful assistant. You answer questions solely based on the content of the provided 'output.txt' file. "
             "Do not use or refer to any external information or sources outside of this file. "
             "Respond in the same language as the user's input; always respond in Albanian. "
             "Do not include filenames, page numbers, or external references. "
@@ -33,7 +33,7 @@ def create_assistant(file_id):
             "Maintain the flow of conversation by referencing previous interactions when relevant."
             "Do not explicitly mention that you are using the 'output.txt' file for your responses."
         ),
-        model="gpt-3.5-turbo", 
+        model="gpt-4o-mini", 
         tools=[{"type": "code_interpreter"}],
         tool_resources={
             "code_interpreter": {

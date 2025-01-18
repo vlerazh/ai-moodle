@@ -17,7 +17,7 @@ def run_chatbot(my_assistant, client):
             client.beta.threads.messages.create(
                 thread_id=my_thread.id,
                 role="user",
-                content=[{"type": "text", "text": user_input}]
+                content=user_input
             )
 
             # Run the assistant
